@@ -31,9 +31,12 @@
   - Why
  - Polymorphism
  
-# PHP
- - composer
- 
+# Package Managers
+ - PHP: Composer
+ - Erlang: Hex
+ - Python: pip
+ - Nodejs: npm
+
 # Design Patterns
  - *Definition:* A general repeatable solution to a commonly occurring problem in software design.
 
@@ -61,9 +64,12 @@
 # Linux / Shell Scripting / Network
  - Explain each directory in `/`
  - awk
+ - lsof
  - Default port numbers for HTTP/FTP/SSH/SSL/SMTP/POP3/MySQL [[1](http://support.hostgator.com/articles/commonly-used-port-numbers)]
  - What's inside `/proc`? [[1](https://twitter.com/b0rk/status/796554983810498560)]
  - What happens when you type google.com into your browser's address box and press enter? [[1](https://github.com/alex/what-happens-when)]
+ - HSTS (what? how to enable?)
+ 
  
 # Security
  - SQL Injection
@@ -90,3 +96,11 @@
  - Scrum
  - Agile
  - Waterfall
+
+# Tests
+ - Unit Tests
+ - Integration Tests
+ - Functional Tests
+ - Acceptance Tests
+ - End-to-end Tests
+ 
