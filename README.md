@@ -40,7 +40,7 @@
 # Design Patterns
  - *Definition:* A general repeatable solution to a commonly occurring problem in software design.
 
-## Examples
+## Examples ([link](https://github.com/kamranahmedse/design-patterns-for-humans))
  - Creational design patterns
   - Factory (Creates an instance of several derived classes)
   - Singleton (A class of which only a single instance can exist)
