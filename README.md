@@ -21,6 +21,8 @@
  - Python 2 vs 3
  - What's Lambda
  - What `zip` function does
+ - Decotrators
+ - Garbage Collection
 
 # OOP
  - Interfaces
@@ -80,6 +82,9 @@
   - How to fix/prevent
 
 # Javascript
+ - Context
+ - Garbage Collection
+ - bind vs closure vs apply vs call
  - What is a Closure? [ [1](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36#.sqm6f5d98) ]
  - Pure Function [ [1](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.stplb6zcz) ]
  - Asynchronous Programming [ [1](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95) ]
