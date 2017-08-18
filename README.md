@@ -71,7 +71,10 @@
  - What's inside `/proc`? [[1](https://twitter.com/b0rk/status/796554983810498560)]
  - What happens when you type google.com into your browser's address box and press enter? [[1](https://github.com/alex/what-happens-when)]
  - HSTS (what? how to enable?)
- 
+ - Different states of process in Linux
+ - What is Virtual Memory
+ - What is zombie/defunct process
+ - Difference between TCP and UDP
  
 # Security
  - SQL Injection
@@ -108,4 +111,3 @@
  - Functional Tests
  - Acceptance Tests
  - End-to-end Tests
- 
