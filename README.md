@@ -73,6 +73,7 @@
  - HSTS (what? how to enable?)
  - Different states of process in Linux
  - What is Virtual Memory
+ - SIGINT vs SIGTERM vs SIGKILL [[1](https://www.quora.com/What-is-the-difference-between-the-SIGINT-and-SIGTERM-signals-in-Linux-What%E2%80%99s-the-difference-between-the-SIGKILL-and-SIGSTOP-signals), [2](https://major.io/2010/03/18/sigterm-vs-sigkill/)]
  - What is zombie/defunct process
  - Difference between TCP and UDP
  
