@@ -1,8 +1,8 @@
 # Database
  - CAP Theorem [[1](http://www.ippon.tech/blog/use-cassandra-mongodb-hbase-accumulo-mysql/)]
  - Stored Procedures
-  - Why?
-  - performance/security
+   + Why?
+   + performance/security
  - Triggers
  - Indexes
  - GROUP BY
@@ -25,12 +25,8 @@
  - Garbage Collection
 
 # OOP
- - Interfaces
-  - What
-  - Why
- - Abstract Classes
-  - What
-  - Why
+ - Interfaces (what/why)
+ - Abstract Classes (what/why)
  - Polymorphism
  
 # Package Managers
@@ -44,24 +40,24 @@
 
 ## Examples ([link](https://github.com/kamranahmedse/design-patterns-for-humans))
  - Creational design patterns
-  - Factory (Creates an instance of several derived classes)
-  - Singleton (A class of which only a single instance can exist)
-  - Prototype (A fully initialized instance to be copied or cloned)
-  - Abstract Factory (Creates an instance of several families of classes)
+   - Factory (Creates an instance of several derived classes)
+   - Singleton (A class of which only a single instance can exist)
+   - Prototype (A fully initialized instance to be copied or cloned)
+   - Abstract Factory (Creates an instance of several families of classes)
  - Structural design patterns
-  - Adapter (Match interfaces of different classes)
-  - Decorator (Add responsibilities to objects dynamically)
-  - Facade (A single class that represents an entire subsystem)
-  - Proxy (An object representing another object)
+   - Adapter (Match interfaces of different classes)
+   - Decorator (Add responsibilities to objects dynamically)
+   - Facade (A single class that represents an entire subsystem)
+   - Proxy (An object representing another object)
  - Behavioral design patterns
-  - Chain of responsibility (A way of passing a request between a chain of objects)
-  - Iterator (Sequentially access the elements of a collection)
-  - Mediator (Defines simplified communication between classes)
-  - Null Object (Designed to act as a default value of an object)
-  - Observer (A way of notifying change to a number of classes)
-  - Template method (Defer the exact steps of an algorithm to a subclass)
+   - Chain of responsibility (A way of passing a request between a chain of objects)
+   - Iterator (Sequentially access the elements of a collection)
+   - Mediator (Defines simplified communication between classes)
+   - Null Object (Designed to act as a default value of an object)
+   - Observer (A way of notifying change to a number of classes)
+   - Template method (Defer the exact steps of an algorithm to a subclass)
  - Other
-  - MVC
+   - MVC
   
 # Linux / Shell Scripting / Network
  - Explain each directory in `/`
@@ -76,6 +72,8 @@
  - SIGINT vs SIGTERM vs SIGKILL [[1](https://www.quora.com/What-is-the-difference-between-the-SIGINT-and-SIGTERM-signals-in-Linux-What%E2%80%99s-the-difference-between-the-SIGKILL-and-SIGSTOP-signals), [2](https://major.io/2010/03/18/sigterm-vs-sigkill/)]
  - What is zombie/defunct process
  - Difference between TCP and UDP
+ - Inode
+   + what's the difference between `change` and `modify` timestamps in inode metadata?
  - iptables [[1](https://www.globo.tech/learning-center/wp-content/uploads/2014/05/Linux-Iptables-firewall-schema.png)]
    + Chains:
 ```
@@ -84,7 +82,6 @@
      PREROUTING
                \
                 INPUT, OUTPUT
-
 ```
    + Tables: `Nat`, `Filter`, `Mangle`
    + Policies:
@@ -97,11 +94,11 @@
    
 # Security
  - SQL Injection
-  - Problem
-  - How to fix/prevent
+   - Problem
+   - How to fix/prevent
  - XSS
-  - Problem
-  - How to fix/prevent
+   - Problem
+   - How to fix/prevent
 
 # Javascript
  - Context
