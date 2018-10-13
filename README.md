@@ -76,7 +76,25 @@
  - SIGINT vs SIGTERM vs SIGKILL [[1](https://www.quora.com/What-is-the-difference-between-the-SIGINT-and-SIGTERM-signals-in-Linux-What%E2%80%99s-the-difference-between-the-SIGKILL-and-SIGSTOP-signals), [2](https://major.io/2010/03/18/sigterm-vs-sigkill/)]
  - What is zombie/defunct process
  - Difference between TCP and UDP
- 
+ - iptables [[1](https://www.globo.tech/learning-center/wp-content/uploads/2014/05/Linux-Iptables-firewall-schema.png)]
+   + Chains:
+```
+                FORWARD, POSTROUTING
+               /
+     PREROUTING
+               \
+                INPUT, OUTPUT
+
+```
+   + Tables: `Nat`, `Filter`, `Mangle`
+   + Policies:
+     * `ACCEPT`: allow through
+     * `DROP`: block, no reply
+   + extended polices
+     * `REJECT`: block, with reply
+     * `LOG`: allow, log
+     * `MASQUERADE`: change the packet
+   
 # Security
  - SQL Injection
   - Problem
