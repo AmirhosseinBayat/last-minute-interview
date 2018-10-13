@@ -75,14 +75,6 @@
  - Inode
    + what's the difference between `change` and `modify` timestamps in inode metadata?
  - iptables [[1](https://www.globo.tech/learning-center/wp-content/uploads/2014/05/Linux-Iptables-firewall-schema.png)]
-   + Chains:
-```
-                FORWARD, POSTROUTING
-               /
-     PREROUTING
-               \
-                INPUT, OUTPUT
-```
    + Tables: `Nat`, `Filter`, `Mangle`
    + Policies:
      * `ACCEPT`: allow through
@@ -91,7 +83,15 @@
      * `REJECT`: block, with reply
      * `LOG`: allow, log
      * `MASQUERADE`: change the packet
-   
+   + Chains:
+```
+                FORWARD, POSTROUTING
+               /
+     PREROUTING
+               \
+                INPUT, OUTPUT
+```
+
 # Security
  - SQL Injection
    - Problem
