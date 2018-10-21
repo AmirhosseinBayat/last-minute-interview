@@ -127,3 +127,15 @@
  - Functional Tests
  - Acceptance Tests
  - End-to-end Tests
+ 
+# Data Structures and Algorithms
+ - Dynamic programming
+ - Backtracking 
+ - Sorting algorithms 
+ - Linked List, Stack, Heap
+ - Graphs
+   + Breadth First Search (BFS)
+   + Depth First Search (DFS)
+ - Trees
+   + Binary Search Tree
+   
